@@ -38,3 +38,6 @@ if st.button("Predict"):
     st.write("Health Risk:", "High" if risk_pred == 1 else "Low")
     st.write("Predicted Disease:", disease_pred)
     st.write("Severity Level:", severity_pred)
+    
+    
+    # streamlit run app.py
